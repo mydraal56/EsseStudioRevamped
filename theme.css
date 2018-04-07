@@ -1,0 +1,49 @@
+
+body {
+
+    background-image: url("images/Esse-FrontWide.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+
+#navbar{ 
+    display:inline-block;
+    width: 100%;
+    /*position:absolute;*/
+    
+    margin-top:0px;
+    white-space: nowrap;
+   
+    
+    
+}
+
+.blurred{ 
+    background-color:rgba(17, 5, 5, 0.2);
+ 
+    
+}
+
+
+.headerList { 
+    padding-left: 15%;   
+}
+
+.headerListItem { 
+   
+    display:inline-block;
+    white-space:nowrap;
+    width: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding:10px 10px;
+    font-weight: bold;
+}
+
+.headerListItem a { 
+    text-decoration: none;
+    color: white;
+}
