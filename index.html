@@ -25,20 +25,26 @@
 
 
 <body ng-app="mainSection">
+        
     <div class="blurred">
         <div id="navbar">
             <ul class="headerList">
                 <li class="headerListItem"><a href="#!/">Home</a></li>
                 <li  class="headerListItem"><a href="#!services">Services</a></li>
-                <li class="headerListItem"><a>Weddings</a></li>
-                <li class="headerListItem"><a>Staff</a></li>
-                <li class="headerListItem"><a>Hours</a></li>
-                <li class="headerListItem"><a>Directions</a></li>
-                <li class="headerListItem"><a>Contact</a></li>
+                <li class="headerListItem"><a href="#!weddings">Weddings</a></li>
+                <li class="headerListItem"><a href="#!staff">Staff</a></li>
+                <li class="headerListItem"><a href="#!hours">Hours</a></li>
+                <li class="headerListItem"><a href="#!directions">Directions</a></li>
+                <li class="headerListItem"><a href="#!contact">Contact</a></li>
             </ul>
         </div>
     </div>
-    <div ng-view class="blurred">
+    <img style="float: left; position: absolute; top: 0; left: 0; opacity: .7; " src="images/cropped-logo-200-150x150.png"/>
+
+    
+    <div style="height:40px;"></div>
+
+    <div ng-view class="blurred blurredMain mainBody">
 
     </div>
         

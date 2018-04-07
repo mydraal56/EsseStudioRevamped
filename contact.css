@@ -1,0 +1,14 @@
+.phone {
+    color: white; 
+    font-family: inherit;
+    
+}
+
+
+.blurredMain { 
+    background-color:rgba(17, 5, 5, 0.7);
+    color: white;
+    padding-left: 10%;
+    font-size: 1.8em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

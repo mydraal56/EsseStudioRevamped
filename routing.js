@@ -8,10 +8,19 @@ app.config(function($routeProvider) {
     .when("/services", {
         templateUrl : "services.html"
     })
-    .when("/green", {
-        templateUrl : "green.htm"
+    .when("/weddings", {
+        templateUrl : "weddings.html"
     })
-    .when("/blue", {
-        templateUrl : "blue.htm"
+    .when("/contact", {
+        templateUrl : "contact.html"
+    })
+    .when("/directions", {
+        templateUrl : "directions.html"
+    })
+    .when("/hours", {
+        templateUrl : "hours.html"
+    })
+    .when("/staff", {
+        templateUrl : "staff.html"
     });
 });
