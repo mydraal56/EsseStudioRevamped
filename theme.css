@@ -68,3 +68,54 @@ body {
     color: darkgrey;
 }
 
+.logoImg {
+    float: left; 
+    position: absolute; 
+    top: 0; left: 0; 
+    opacity: .7;
+}
+   
+@media screen  and (min-width: 501px) and (max-device-width : 1200px) {
+
+}
+
+
+@media screen and (max-device-width : 500px) {
+body {
+    background-image: url("images/Esse-FrontPortrait.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:/* #d3c4be;*/ black;
+}
+   
+
+#navbar { 
+    display: none;
+    float:top;
+    position: absolute; 
+    top: 0; left: 0; 
+    background-color: rgba(0,0,0, .7);
+    
+}
+
+#navbar ul { 
+    text-align: center;
+    margin-left: 10%;
+
+}
+
+.headerListItem {
+    display: block;
+    font-size: 3.5em;
+    
+}
+
+.logoImg { 
+    box-shadow: 2px 2px 2px;
+    width: 15%;
+}
+
+.blurredMain {
+    height: 900px;
+}
+}

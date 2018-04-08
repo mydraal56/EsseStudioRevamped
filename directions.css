@@ -11,10 +11,22 @@
     color: white;
 }
 
-li {
+.blurredMain li {
     line-height: 1.8em;
 }
 
 .name { 
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+@media screen  and (min-width: 501px) and (max-device-width : 1200px) {
+
+}
+
+
+@media screen and (max-device-width : 500px) {
+    .blurredMain {
+        font-size: .7em;
+    }
 }

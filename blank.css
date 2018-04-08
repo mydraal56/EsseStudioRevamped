@@ -1,3 +1,12 @@
 .mainBody { 
     display: none;
 }
+
+
+@media screen  and (min-width: 501px) and (max-device-width : 1200px) {
+
+}
+
+
+@media screen and (max-device-width : 500px) {
+}

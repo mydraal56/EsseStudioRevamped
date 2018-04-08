@@ -11,7 +11,7 @@
 		
 	<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>-->
-    <script src="script.js"></script>
+    <script src="JSFiles/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
 
@@ -29,17 +29,17 @@
     <div class="blurred">
         <div id="navbar">
             <ul class="headerList">
-                <li class="headerListItem"><a href="#!/">Home</a></li>
-                <li  class="headerListItem"><a href="#!services">Services</a></li>
-                <li class="headerListItem"><a href="#!weddings">Weddings</a></li>
-                <li class="headerListItem"><a href="#!staff">Staff</a></li>
-                <li class="headerListItem"><a href="#!hours">Hours</a></li>
-                <li class="headerListItem"><a href="#!directions">Directions</a></li>
-                <li class="headerListItem"><a href="#!contact">Contact</a></li>
+                <li class="headerListItem"><a onClick="mobileMenuBar()" href="#!/">Home</a></li>
+                <li  class="headerListItem"><a onClick="mobileMenuBar()" href="#!services">Services</a></li>
+                <li class="headerListItem"><a onClick="mobileMenuBar()" href="#!weddings">Weddings</a></li>
+                <li class="headerListItem"><a onClick="mobileMenuBar()" href="#!staff">Staff</a></li>
+                <li class="headerListItem"><a onClick="mobileMenuBar()" href="#!hours">Hours</a></li>
+                <li class="headerListItem"><a onClick="mobileMenuBar()" href="#!directions">Directions</a></li>
+                <li class="headerListItem"><a onClick="mobileMenuBar()" href="#!contact">Contact</a></li>
             </ul>
         </div>
     </div>
-    <img style="float: left; position: absolute; top: 0; left: 0; opacity: .7; " src="images/cropped-logo-200-150x150.png"/>
+    <img class="logoImg" onClick="mobileMenuBar()"src="images/cropped-logo-200-150x150.png"/>
 
     
     <div style="height:40px;"></div>
