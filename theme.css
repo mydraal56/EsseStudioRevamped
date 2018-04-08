@@ -86,6 +86,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color:/* #d3c4be;*/ black;
+    padding-top: 10%;
 }
    
 
@@ -113,9 +114,11 @@ body {
 .logoImg { 
     box-shadow: 2px 2px 2px;
     width: 15%;
+    position: fixed;
 }
 
 .blurredMain {
-    height: 900px;
+ 
+    height: 950px;
 }
 }
