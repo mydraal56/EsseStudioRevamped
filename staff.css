@@ -6,6 +6,9 @@
     border: width border-style color;
 }
 
+ a { 
+    margin-bottom: 25px; 
+}
 .staffname {
 	/*background-color: blue; */
 	color: white;
@@ -18,8 +21,11 @@
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2.5em;
-    width: 65%;
-    padding-top: 5%;
+    float: none;
+    text-shadow: 2px 2px 7px antiquewhite;
+    
+    
+    
 
 }
 
@@ -29,11 +35,13 @@
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2.5em;
+   
 }
 
 .staffImg {
-    width: 25%;
+    width: 50%;
     border-radius: 500px;
+   
 
 }
 
@@ -41,6 +49,10 @@ td {
     padding-top: 5%;
     width: 50%;
 
+}
+
+.tdImg { 
+    width: 25%;
 }
 
 .blurredMain { 
@@ -55,10 +67,21 @@ td {
     color: white;
 }
 
+.visitPersonal { 
+    color: white;
+    text-align: center;
+}
+a.visitPersonal { 
+   
+}
+.visitPersonal a { 
+    color: white;
+    text-decoration: none; 
+}
 @media screen  and (min-width: 501px) and (max-device-width : 1200px) {
 
 .staffname span {
-    font-size: .5em;
+    font-size: 2.5em;
 }
 
 }
@@ -66,11 +89,39 @@ td {
 @media screen  and (min-width: 0px) and (max-device-width : 500px) {
 
     .staffname {
-        font-size: .5em;
+        font-size: 2.5em;
     }
 
+    
+    .blurredMain { 
+
+        height: 1080px;
+    
+    }
     .staffBio {
 
-font-size: .5em;
+        font-size: 2.5em;
+    }
+
+    p { 
+        float: right;
+    }
+
+    .tdText { 
+        width: 75%;
+    }
+    .staffImg { 
+        width: 100%;
+         
+    }
+
+    .visitPersonal { 
+        color: white;
+    }
+
+    .visitPersonal a { 
+        color: white;
+        text-decoration: none; 
+        font-size: 1.5em;
     }
 }

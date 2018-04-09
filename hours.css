@@ -31,6 +31,6 @@ p {
 
 @media screen and (max-device-width : 500px) {
     .hoursMain { 
-        font-size: 1.0em;
+        font-size: 1.8em;
     }
 }

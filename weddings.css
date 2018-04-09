@@ -63,7 +63,14 @@ ul {
         font-size: 1.2em;
     }
     .mainImgWedding {
-        width: 75%;
+        width: 40%;
+        
 
+
+    }
+
+    .email { 
+        font-size: 2.0em;
+        line-height: 1.6em;
     }
 }

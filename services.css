@@ -89,14 +89,14 @@ td {
     
 
     .styletitle {
-        font-size: 1em;
+        font-size: 1.8em;
     }
 
     .tdName{
-        font-size: .7em;
+        font-size: 1.7em;
     }
 
     .tdPrice {
-        font-size: .7em;
+        font-size: 1.7em;
     }
 }
