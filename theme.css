@@ -3,11 +3,14 @@ body {
 
     background-image: url("images/Esse-FrontWide.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-   
+    background-size: cover;   
 }
 
-
+.body2 { 
+    background-image: url("images/Esse-FrontWide.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
 
 #navbar{ 
     display:inline-block;
